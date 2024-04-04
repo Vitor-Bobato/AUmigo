@@ -1,0 +1,434 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: #f6b718;
+    max-width: 2000px;
+    width: 100%;
+}
+
+body{
+    background-color: #EEF0F2;
+}
+
+
+/* POR FAVOR não mexam em nenhum desses aqui por enquanto*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav-item{
+    margin: 0 15px;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.mobile-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    
+    .nav-item{
+        display: none;
+    }
+
+    .mobile-icon{
+        display: block;
+    }
+
+    .mobile-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+}
+
+.saudacoes{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.dog_home{
+    display: flex;
+    justify-content: left;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.apresentacao{
+    background-color: #d9d9d9;
+    margin: 30px;
+    border: 2px #f6b718 solid;
+    border-radius: 25px;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.texto p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* Entre em contato */
+
+.TextoUser{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.entreContato{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+ 
+}
+
+.NossoWhatsApp{
+    background-color: #d9d9d9;
+    border: 2px #f6b718 solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 160px;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-weight: bold;
+
+}
+
+.textoWhats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 15px;
+}
+
+.NossoInstagram{
+    background-color: #d9d9d9;
+    border: 2px #f6b718 solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 160px;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-weight: bold;
+}
+
+.textoInsta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    background-color: transparent;
+}
+
+
+.NossoInstagram a{
+    color: #000;
+}
+.NossoInstagram a:hover
+{
+    text-decoration: none;
+    color: #f6b718;
+}
+
+
+
+  
+/* Doações*/
+
+.doacoes{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.apresentacao-pagamento{
+    background-color: #d9d9d9;
+    margin: 50px;
+    margin-left: 500px;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    display: flex;
+    border: 2px #f6b718 solid;
+    border-radius: 25px;
+    
+}
+
+.pagamento
+{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 200;
+    
+}
+.pagamento a
+{
+    font-size: 50px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+
+}
+
+.pagamento a:hover
+{
+    text-decoration: none;
+    color: #f6b718;
+}
+
+
+/*Pagamentos*/
+
+
+.apresentacao-pagamento-pix
+{
+    background-color: #d9d9d9;
+    margin: 50px;
+    width: 700px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    border: 2px #f6b718 solid;
+    border-radius: 25px;
+}
+
+.apresentacao-pagamento-pix fieldset
+{
+    padding-top: 60px;
+    padding-left: 80px;
+    
+}
+
+.dog_home_cartao
+{
+    display: flex;
+    justify-content: left;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dog_home_boleto
+{
+    display: flex;
+    justify-content: left;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.qrcode
+{
+    justify-content: center;
+    display: flex;
+}
+.qrcode img
+{
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    padding-left: 100px;
+}
+
+input.botao
+{
+	width: 400px;
+	height: 40px;
+    justify-content: center;
+    display: flex;
+    margin-left: 140px;
+    margin-top: 30px;
+
+}
+
+/*Nos deixe seu whatsapp*/
+.group {
+    position: relative;
+   }
+   
+   .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    background: transparent;
+   }
+   
+   .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: #f6b718;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #f6b718;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 200px;
+   }
+   
+   .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #f6b718;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .bar:before {
+    left: 50%;
+   }
+   
+   .bar:after {
+    right: 50%;
+   }
+   
+   .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+   }
+   
+   .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+   .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+   }
+   
+   @keyframes inputHighlighter {
+    from {
+     background: #f6b718;
+    }
+   
+    to {
+     width: 0;
+     background: #d9d9d9;
+    }
+   }
+
+   /* Conheça os aumigos */
+
+   .AUmigos{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   }
+ 
+
+
+footer{
+    background-color: transparent;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
